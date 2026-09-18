@@ -1,0 +1,33 @@
+Output_ID,Output,Coverage_Status,Core_Prompts,Supporting_Prompts,Other_Recorded_Prompts,Remaining_Limit,Output_Page
+01,PECO 구조화 표 및 PubMed 검색식,대응 원문 확인,D1-U01,D1-U02,D1-U28,영문 표 생성 요청 D1-U28의 완료 기록은 미확인.,outputs/README.md
+02,독립적 PubMed 검색 결과 보고,대응 원문 확인,D1-U02,,,과거 PubMed 응답·검색 실행 시각은 원시 로그 미확보. 도구 사용 요청과 실제 사용 도구를 동일시하지 않음.,outputs/README.md
+03,전체 검색 문헌 데이터베이스 / 서지정보 CSV,대응 원문 확인,D1-U03,,,추출본은 재검색 금지 지시와 실제 재검색 기록의 차이를 보고함. 당시 검색집합 원본의 동일성은 미확인.,outputs/README.md
+04,1차 제목 선별 결과 CSV,기준 차이·버전 확인,D1-U04,D1-U07; D1-U11,D1-U05; D1-U06; D1-U08; D1-U09; D1-U10,"원고의 초기 653건 5범주와 D1-U04 4범주, 95/97의 시점·파일 연결은 남음.",outputs/README.md
+05,제목 선별 재검토·정제 결과 CSV,대응 원문 확인,D1-U14,D1-U13,D1-U12; D1-U29; D1-U30; D1-U31,직접 대화 메시지와 해당 파일 생성시점의 인증까지는 아님.,outputs/README.md
+06,제목 판정 변경 이력 및 초록 선별 후보 파일,부분 대응·근거 부족,D1-U13; D1-U14,D1-U29; D1-U30; D1-U31,D1-U12,manual_patch 입력의 상세 변경·실행 기록은 미확보. 개별 문헌 QA 메시지는 자동으로 수동 패치 완료로 보지 않음.,outputs/README.md
+07,2차 초록 선별 결과 CSV,기준 차이·버전 확인,D1-U15,D1-U16; D2-P01,,D1-U15 원문은 실제 초록 확보의 증거가 아님. 보강 이전·이후의 집합/체크포인트를 분리해야 함.,outputs/README.md
+08,누락 PMID·초록 보완 결과 및 배치별 갱신 파일,기준 차이·버전 확인,D1-U17; D1-U18,D1-U19; D1-U20; D1-U21; D2-P01,D1-U16; D1-U22; D1-U23; D1-U24; D1-U26,원고의 보강 범위·배치 기술에 대한 근거가 필요. 원문 숫자나 Found 값을 임의 변경하지 않음.,outputs/README.md
+09,초록 보완 후 재선별 결과 및 전문 심사 후보 파일,기준 차이·버전 확인,D2-P01,D1-U16; D1-U17; D1-U18; D1-U19; D1-U20; D1-U21,D1-U15; D1-U22; D1-U23; D1-U24; D1-U26,누적 81행과 원고의 76건 재판정 집합이 같은 범위라는 증거는 미확보.,outputs/README.md
+10,3차 전문 적격성 심사 결과 및 근거 추출표,대응 원문 확인,D2-P02; D2-P04; D2-P06; D2-P10,D2-P03; D2-P05; D2-P07; D2-P08; D2-P09,,전문 접근 성공·문헌별 추출 정확성을 이 파일 비교로 인증하지 않음.,outputs/README.md
+11,Awaiting information 문헌의 해결·최종 판정 결과,대응 원문 확인,D2-P09; D2-P10,D2-P03; D2-P08,,보류 문헌별 전문 확보 근거의 독립 검증은 범위 밖.,outputs/README.md
+12,전문 심사 제외·중복 코호트 문헌의 최종 QA 기록,대응 원문 확인,D2-P11,,,이것은 LLM QA 지시이며 독립적인 사람 검토 완료로 전환하지 않음.,outputs/README.md
+13,연구 특성 및 정량 데이터 추출표,부분 대응·근거 부족,D2-P12; D2-P14; D3-U01; D3-U02,D2-P13,,초기 Batch02 결과 파일 버전은 미확보. 대화2·3 요청 발생을 합치거나 삭제하지 않음.,outputs/README.md
+14,대표 효과크기 선정 및 Log effect·SE 계산 데이터셋,대응 원문 확인,D2-P14; D3-U01; D3-U02,D2-P12,,Batch01 최초 요청에는 Log_Effect·SE 계산 지시가 없음을 유지. 원문 연구에서 수치를 올바르게 추출했는지의 검증은 별도.,outputs/README.md
+15,데이터 추출 배치별 완료 보고서,대응 원문 확인,D2-P14; D3-U01; D3-U02,D2-P12,,모든 당시 완료 보고의 원시 채팅 export는 미확보.,outputs/README.md
+16,노출·결과·효과크기 출처의 표준화 데이터셋,대응 원문 확인,D3-U03,,,의미 분류의 과학적 타당성을 새로 평가한 것은 아님.,outputs/README.md
+17,분석 전 QA 이슈 파일,대응 원문 확인,D3-U03,D3-U04,,플래그 존재와 사람 검토 해결을 구분. QA_Notes는 비어 있어 사람 판정을 입증하지 않음.,outputs/README.md
+18,중복 효과크기 의심 6편의 검토 반영 기록,부분 대응·근거 부족,,D3-U03; D3-U04,,원문 미확보를 사람 직접 수행의 증거로 보지 않음. 사람 검토라면 과거 기록 또는 현재 사후 확인임을 구분한 기록 필요.,outputs/README.md
+19,최종 38편 메타분석 데이터셋 및 구성 분포표,대응 원문 확인,D3-U02; D3-U03,D3-U04,,원고의 ‘all 38 ... final meta-analysis dataset’과 실제37편 후속 입력의 단계 설명이 필요. D3-U04를 미채택으로 표시하지 않음.,outputs/README.md
+20,주 분석 결과 및 이질성·예측구간 출력,대응 원문 확인,D3-U05,D3-U04; D3-U09,,원래 결과 XLSX를 찾은 것은 아님. 예측구간은 계산 지시/Methods 기술과 실제 원고 수치 보고를 구분.,outputs/README.md
+21,Outcome Group별 하위집단 분석 결과,대응 원문 확인,D3-U05,,,요청에만 있고 연구0편인 그룹을 새로운 보고 결과로 추가하지 않음.,outputs/README.md
+22,Adjusted-only 민감도 분석 결과,대응 원문 확인,D3-U05,,D3-U12; D3-U13,24편 adjusted-OR-only 결과는 다른 조건으로 분리. 그 결과가 논문26편을 생성한 것으로 기록하지 않음.,outputs/README.md
+23,Funnel plot 및 비대칭 관찰 결과,부분 대응·근거 부족,D3-U05,D3-U07; D3-U09,D3-U12; D3-U13,34편과24편 후속 funnel을 구분. 문헌에서 관찰한 시각적 해석까지 숫자 재현으로 검증하지 않음.,outputs/README.md
+24,Egger·Begg 검정 결과,대응 원문 확인,D3-U05,D3-U08; D3-U09,D3-U12; D3-U13,D3-U08 직후 독립 재계산은 미확인. 당시 XLSX와 검정 구현의 방법론적 타당성 검토는 별도.,outputs/README.md
+25,메타분석 결과표 및 참조 메타분석과의 비교 정리,부분 대응·근거 부족,D3-U05,D3-U09,,Table_corrected.xlsx는 선별 성능표이며 메타분석 Table5가 아님. 참조 비교 작성 기록을 대신 생성하지 않음.,outputs/README.md
+26,참조 앵커 40편의 단계별 매칭·유지·소실 기록,원문 미확인,,,,초기 검색·일반 QA 요청으로 대체하거나 새로 만든 매칭 코드를 과거 기록으로 표시하지 않음.,outputs/README.md
+27,ACR·단계별 유지율·FN·CRR 계산 결과,원문 미확인,,,,이번 문서화 작업에서 계산한 값을 당시 분석 결과처럼 추가하지 않음.,outputs/README.md
+28,비앵커 추가 후보 문헌 24편의 목록 및 적격성 검토,원문 미확인,,,,candidate/potentially eligible를 확정 적격으로 강화하지 않음.,outputs/README.md
+29,양성 판정 범위를 달리한 성능 비교 결과,원문 미확인,,,,표 발견은 그 생성 프롬프트 확보가 아님. 논문에 맞춰 분모를 바꾸지 않음.,outputs/README.md
+30,초기 워크플로우와 개선 워크플로우의 성능 비교 근거,원문 미확인,,,,논문에 실제 보고된 초기 구현을 단순 ‘테스트’로 제외하지 않음.,outputs/README.md
+31,PRISMA 흐름도 및 단계별 문헌 수 집계,부분 대응·근거 부족,D2-P07; D2-P10,,,Stage3 표를 Figure2 전체 도식 생성 프롬프트로 표시하지 않음.,outputs/README.md
+32,Context Orchestration 7개 레이어 개념도,원문 미확인,,,,기본 역할·프로토콜 지시로 그림 제작 원문을 대신하지 않음.,outputs/README.md
