@@ -1,0 +1,56 @@
+Prompt_ID,Conversation,Output_IDs,Prompt_Type,Source_Reported_Status,Prompt_Page,Original_SHA256,Display_Check
+D1-U01,D1,01; C1,최초 실행,직접 사용 확인,prompts/D1_part1.md#d1-u01,ebbeef7820a6df2da3758e6cf89020f050441c4a0bbff825fed636f07c4d033c,EXACT
+D1-U02,D1,02; C1,최초 실행,직접 사용 확인,prompts/D1_part1.md#d1-u02,9930f4f7184472d0baa03a48cfe10964a2747ba5fca440b9b51161c766737c53,EXACT
+D1-U03,D1,03; C1,최초 실행,직접 사용 확인,prompts/D1_part1.md#d1-u03,3a94d94e096ec3df681d4c3dd1bd40d6fe46859e8d1a62100f1be96d375d5b0a,EXACT
+D1-U04,D1,04; C1,최초 실행,직접 사용 확인,prompts/D1_part1.md#d1-u04,1e042aeca14ffddf48af797d958b6b3a4d0c4bc1cc6ac83f60c4029e35afdbcd,TERMINAL_NEWLINE_ONLY
+D1-U05,D1,04,최초 실행,직접 사용 확인,prompts/D1_part1.md#d1-u05,21e57b185adb2213e84e4ea3a9d01ec666de78bdcfa893b5a95d9e9e5ea9f052,EXACT
+D1-U06,D1,04; C2,배치 재개,직접 사용 확인,prompts/D1_part1.md#d1-u06,31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8,EXACT
+D1-U07,D1,04; C3,추가 조건,관련 있으나 사용 불확실,prompts/D1_part1.md#d1-u07,6259efbfe1eaa773a2f1a8e134c35c3f4457dd964e40d77338b5ef32c2d87c81,EXACT
+D1-U08,D1,04; C2,배치 재개,관련 있으나 사용 불확실,prompts/D1_part1.md#d1-u08,5f51f6d9ee888eebf994a71c77c33350017eeace3c97568064cb8323e138341a,EXACT
+D1-U09,D1,04,추가 조건,관련 있으나 사용 불확실,prompts/D1_part1.md#d1-u09,49815b1d030c85987ebbfb7a0a90f77cea6d9313336b13e4852c4aa4df8a94b9,EXACT
+D1-U10,D1,04; C3,오류 수정,직접 사용 확인,prompts/D1_part1.md#d1-u10,1e1a5be0ce1380faf5abd7f96f4a9193a66589b64a6e1cafaeae2f7e648222e6,EXACT
+D1-U11,D1,04; C3,재실행,수정에 사용 확인,prompts/D1_part2a.md#d1-u11,004f80c901773f8ba513b12ca30dd075621664a15926c5a3f22e09c3c927bf28,EXACT
+D1-U12,D1,05; 06; C1; C3,재검토,관련 있으나 사용 불확실,prompts/D1_part2a.md#d1-u12,fcd9d76ba212d300f46a36c6129c090e06ff22f579e7d7e276322b07771a9cc0,EXACT
+D1-U13,D1,05; 06; C1; C3,재검토,수정에 사용 확인,prompts/D1_part2a.md#d1-u13,f0edfa8b116e59205c4d153559d62f860e6fa65408a0691c38dc8451ea22b975,EXACT
+D1-U14,D1,05; 06; C1; C3,refinement,수정에 사용 확인,prompts/D1_part2a.md#d1-u14,885a85e75fad90ad26574329fa17abb0709e24edf59fa97bafd5e2a6e2d0855c,EXACT
+D1-U15,D1,07; 09; C1,최초 실행,직접 사용 확인,prompts/D1_part2a.md#d1-u15,acfa023678a73f3c7fffdea1626f4b95a56dfe48ae6288c1aa776b9d615e418f,EXACT
+D1-U16,D1,07; 08; 09; C1; C3,정보 보완,수정에 사용 확인,prompts/D1_part2b1.md#d1-u16,c866213c269b91b963b545ed35e16cdfb7c624f88620da5d23065c740f511109,EXACT
+D1-U17,D1,08; 09; C1; C2,정보 보완,수정에 사용 확인,prompts/D1_part2b1.md#d1-u17,93dff688317479fff9a227d5dd1491be4855ee0d5d484207defd428dfabbc6f5,EXACT
+D1-U18,D1,08; 09; C1; C2,배치 재개,수정에 사용 확인,prompts/D1_part2b1.md#d1-u18,6fe50a1b4547ad96797cbce00bd28cc1a3e71f3e818d94b43afa06e0df548221,EXACT
+D1-U19,D1,08; 09; C1; C2; C3,오류 수정,수정에 사용 확인,prompts/D1-U19.md#d1-u19,e0b27c321eb8e2f8b5c9450f916f02b0ad84f9adf422098847186c7c26a01a6e,EXACT
+D1-U20,D1,08; 09; C1; C2; C3,재실행,수정에 사용 확인,prompts/D1-U20.md#d1-u20,1118bfd4c3fc973a5007b7cc4622fba66131c1332f6aab41a04c36cd31e6807c,EXACT
+D1-U21,D1,08; 09; C1; C2,배치 재개,수정에 사용 확인,prompts/D1_part3a1.md#d1-u21,685022f6c2fbad22819663464144894e1dbe0f47ae619918911dbb8e396623b3,EXACT
+D1-U22,D1,08; 09; C1; C2,배치 재개,관련 있으나 사용 불확실,prompts/D1_part3a1.md#d1-u22,c25544ea8e182a8bcda7c5bf43c634e91c12624167a4ead72e4f7054a3ddb3fb,EXACT
+D1-U23,D1,08; 09; C1; C2; C3,재실행,관련 있으나 사용 불확실,prompts/D1_part3a2.md#d1-u23,f022ad79ce2da7e09a724feb3aef6faab4de8fb864125d75bab98c91600374ff,TERMINAL_NEWLINE_ONLY
+D1-U24,D1,08; 09; C1; C2; C3,재실행,관련 있으나 사용 불확실,prompts/D1_part3a2.md#d1-u24,f022ad79ce2da7e09a724feb3aef6faab4de8fb864125d75bab98c91600374ff,TERMINAL_NEWLINE_ONLY
+D1-U26,D1,08; 09; C2; C3,재실행,관련 있으나 사용 불확실,prompts/D1_part3b.md#d1-u26,7ffda436b384651ccd65fc23979ef1fc50f291bbdb1acee118f53c46eddf3ce2,EXACT
+D1-U28,D1,01,추가 조건,관련 있으나 사용 불확실,prompts/D1_part3b.md#d1-u28,038768c36ec46ce36f252b691ffc94a1ebc3417f0fd36c8447b00df3c576d884,EXACT
+D1-U29,D1,05; 06; C3,재검토,관련 있으나 사용 불확실,prompts/D1_part3b.md#d1-u29,5c4437f8bc996d203ddc4464b6ec9f2f58bcc2360468fd523fd12f2b54331a6f,EXACT
+D1-U30,D1,05; 06; C3,재검토,관련 있으나 사용 불확실,prompts/D1_part3b.md#d1-u30,0fea7169634918527e9124954d76b4d122cb52cc2618f34c465faf461898bd4e,EXACT
+D1-U31,D1,05; 06; C3,사람 검토 반영,관련 있으나 사용 불확실,prompts/D1_part3b.md#d1-u31,2d0e4c71748f6354cf92a2777dbc0b61c0fa644e29e2aa8cc96bd513861acc2d,EXACT
+D2-P01,D2,07; 08; 09; C1,정보 보완,수정에 사용 확인,prompts/D2.md#d2-p01,c25544ea8e182a8bcda7c5bf43c634e91c12624167a4ead72e4f7054a3ddb3fb,EXACT
+D2-P02,D2,10; C1,최초 실행,직접 사용 확인,prompts/D2.md#d2-p02,d0221d6969c81e63d654fc5ad1ad263d668444681379d7955a87fc06db4ca658,EXACT
+D2-P03,D2,10; 11; C1; C3,재검토,수정에 사용 확인,prompts/D2.md#d2-p03,b7c4a29f2d7e96930dd15728cadb9e8810f039c8d956760a38c28310a372b421,EXACT
+D2-P04,D2,10; C1; C2,배치 재개,직접 사용 확인,prompts/D2.md#d2-p04,b686da016190b86a8bb607c912c60c4a85a8c87d5775c4c29e74ef78b2aadedb,EXACT
+D2-P05,D2,10; C2; C3,재실행,수정에 사용 확인,prompts/D2.md#d2-p05,a3f085a7c9db1b31942aee08841b106d4f3fa187311dfd15b4d6f2f2eb4485df,EXACT
+D2-P06,D2,10; C1; C2,배치 재개,직접 사용 확인,prompts/D2.md#d2-p06,ca6bb52d99696b56235164bb69965a6219f39bcbeeab813b251e517ff52d7760,EXACT
+D2-P07,D2,10; 31; C3,재검토,수정에 사용 확인,prompts/D2.md#d2-p07,5eaac439755a2a5bc6191eaa4d11239446bf6e9c11e9e8ef83563f544abbe479,EXACT
+D2-P08,D2,11; C3,QA,직접 사용 확인,prompts/D2.md#d2-p08,220f304feb75484d72298fddfa471824d632202d45738bc84495907138e1dc6e,EXACT
+D2-P09,D2,11; C3,재검토,수정에 사용 확인,prompts/D2.md#d2-p09,87536e65a332159c10403d014410f9cbe387dfd72b4d728c1ff02188d7f35e0d,EXACT
+D2-P10,D2,10; 11; 31; C3,refinement,수정에 사용 확인,prompts/D2.md#d2-p10,3595f54ca850eb40a8a574fd1064a7853471cb9fe8868da4aac76f4b8d6cba1c,EXACT
+D2-P11,D2,12; C3,QA,직접 사용 확인,prompts/D2.md#d2-p11,fce7c7034bc7590828098ba2ac84741f353a9e96e914d6f70aebd5c16cbf98a0,EXACT
+D2-P12,D2,13; 14; 15; C1,최초 실행,직접 사용 확인,prompts/D2.md#d2-p12,5f51b76b23f839d157c6ffc54b01212ebd9a75bf2affc676ba41cfd9ad9917d6,EXACT
+D2-P13,D2,13; C2,배치 재개,관련 있으나 사용 불확실,prompts/D2.md#d2-p13,a69110eba00c3325eae91c9c6b8283e450b2eea84495df081d397a658b4c34b3,EXACT
+D2-P14,D2,13; 14; 15; 17; C1; C2,추가 조건,직접 사용 확인,prompts/D2.md#d2-p14,82d8f072f884e917967dd0b62ccadcffe7ad2feabc718a6a9656ea43d226ac6a,EXACT
+D3-U01,D3,13; 14; 15; C1; C2,배치 재개,직접 사용 확인,prompts/D3.md#d3-u01,fe11c689d0d98ce800fce73b87a54db5278f7abe0fdf78765a0a9c0bae65300d,EXACT
+D3-U02,D3,13; 14; 15; 19; C1; C2,배치 재개,직접 사용 확인,prompts/D3.md#d3-u02,243ae93b4e4fdbf038033d5f6a80ecb14c3daa0c581987a64ea00f644a0242ee,EXACT
+D3-U03,D3,16; 17; 19; 18; C1; C3,QA,직접 사용 확인,prompts/D3.md#d3-u03,79b0475fb78b8230522819e84c4128b23c0550f93f739a71d66751911121915b,EXACT
+D3-U04,D3,17; 19; 18; C1; C3,QA,수정에 사용 확인,prompts/D3.md#d3-u04,cadec8215c07bca556199bf271c4eed6a3210fe14c33328bf75a2534d2b53b0d,EXACT
+D3-U05,D3,20; 21; 22; 23; 24; 25; C1,최초 실행,직접 사용 확인,prompts/D3.md#d3-u05,12b31aa63243368a8925909d5dd73d9263cb1704ddd0b94de60bcf019de17155,EXACT
+D3-U07,D3,23; C3,재실행,수정에 사용 확인,prompts/D3.md#d3-u07,8bed23a04c07d4750d421d3eaee506249441144928f955ab14070e75a86ef1e0,EXACT
+D3-U08,D3,24,추가 조건,직접 사용 확인,prompts/D3.md#d3-u08,0e202eab7278aa766aa2f3118b76b77ccbf66addd5d44f60abaabfda3969e507,EXACT
+D3-U09,D3,20; 23; 24; 25,최초 실행,직접 사용 확인,prompts/D3.md#d3-u09,66c6024087af669156dbe47d88f8b0742462cd1c66fa59a9464309e538b440c4,EXACT
+D3-U10,D3,X-NOS-01,최초 실행,직접 사용 확인,prompts/D3.md#d3-u10,c272eb42239bdbd2563dccffaf4e487b6155fdb04b6277a0fd163fede69bb771,EXACT
+D3-U11,D3,X-NOS-02,추가 조건,수정에 사용 확인,prompts/D3.md#d3-u11,28cc0699fd97edddde2464ffda8e15c9af9cb2ec47cca38a40bdc0136aee8505,EXACT
+D3-U12,D3,22; 23; 24,추가 조건,수정에 사용 확인,prompts/D3.md#d3-u12,fd79b2e14efaad60307fdc59951579dbb35d5093b0d35ec6785e58c31cdd5b9b,EXACT
+D3-U13,D3,22; 23; 24; C3,오류 수정,수정에 사용 확인,prompts/D3.md#d3-u13,506b95feb557a2619fd12fa46871976544363da4cd7b5661a7864be1cb06d2d7,EXACT
